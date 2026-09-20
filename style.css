@@ -44,3 +44,36 @@ footer {
   font-size: 0.9rem;
   color: #666;
 }
+
+.table-condensed-zebra {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  line-height: 1.25;
+}
+
+.table-condensed-zebra th,
+.table-condensed-zebra td {
+  padding: 4px 8px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-condensed-zebra thead th {
+  font-weight: 600;
+  background: #e9ecef;
+  border-bottom: 2px solid #bbb;
+}
+
+.table-condensed-zebra tbody tr:nth-child(odd) {
+  background: #fff;
+}
+
+.table-condensed-zebra tbody tr:nth-child(even) {
+  background: #f6f6f6;
+}
+
+.table-condensed-zebra tbody tr:hover {
+  background: #eaf2ff;
+}
